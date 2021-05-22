@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/base-test?user=root&password=1234&createDatabaseIfNotExist=true&serverTimezone=UTC
+  jpa:
+    show-sql: true
